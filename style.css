@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+font-family: 'Courier New', Courier, monospace;
+background: #111;
+color: #fff;
+}
+
+/*Start Head*/
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.head p {
+    font-size: 20px;
+}
+
+/*End Head*/
+
+/*Start Input*/
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus {
+    background-color: #000;
+    transform: scale(1.1);
+}
+.price input {
+    width: 20%;
+}
+#total {
+    background-color: #024f2b;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before {
+    content: 'total: ';
+}
+#deleteAll {
+    margin: 20px 0;
+}
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(20, 80, 80);
+    color: #fff;
+    transition: .5s;
+
+}
+button:hover {
+    background-color: rgb(20, 80, 80);
+    letter-spacing: 1px;
+}
+
+/*End Input*/
+
+/*Start Output*/
+
+.btn-search {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-search button {
+    width: 45%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th {
+    text-transform: uppercase;
+}
+th, td {
+    padding: 5px;
+}
+
+/*End Output*/
